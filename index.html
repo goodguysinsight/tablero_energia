@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tablero Censo 2025 — Energía</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
 <style>/* required styles */
@@ -731,10 +733,17 @@ footer.note{background:var(--surface);border-top:1px solid var(--line);color:var
   font-size:.62rem;line-height:1.35;padding:7px 16px}
 .leaflet-bar a{background:var(--surface);color:var(--ink);border-color:var(--line)}
 .leaflet-bar a:hover{background:var(--surface-2)}
-@media (max-width:560px){
-  #info{width:210px;top:8px;right:8px;padding:10px}
-  #legend{max-width:52vw}
+@media (max-width:640px){
+  main{height:auto;display:flex;flex-direction:column}
+  #map{position:relative;inset:auto;width:100%;height:62vh;min-height:360px}
+  .panel{position:static;z-index:auto;width:auto;max-width:none;margin:8px 10px 0;box-shadow:none}
+  #info{top:auto;right:auto;width:auto;padding:11px 13px}
+  #legend{bottom:auto;left:auto;max-width:none;margin-bottom:10px}
+  .leaflet-tooltip.maplbl{font-size:.56rem;padding:1px 4px}
   .titles h1{font-size:.95rem}
+  header.bar{padding:8px 12px}
+  .controls{gap:8px}
+  .seg{flex-wrap:wrap}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .leaflet-tooltip.maplabel{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:8px;
