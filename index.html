@@ -776,9 +776,9 @@ select:disabled{opacity:.5;cursor:not-allowed}
     <div class="controls">
       <div class="group"><label>Indicador</label>
         <div class="seg" id="ind">
-          <button data-i="cook" aria-pressed="true">Combustible</button>
+          <button data-i="pobre" aria-pressed="true">Pob. energ. (Censo)</button>
+          <button data-i="cook" aria-pressed="false">Combustible</button>
           <button data-i="elec" aria-pressed="false">Energía eléctrica</button>
-          <button data-i="pobre" aria-pressed="false">Pob. energ. (Censo)</button>
         </div>
       </div>
       <div class="group"><label>Nivel</label>
@@ -1114,7 +1114,7 @@ select:disabled{opacity:.5;cursor:not-allowed}
     pinned=propsByKey('dist',dist);gotoLevel('dist');paintPinned();flyKey('dist',dist);showInfo(null);});
 
   // init
-  setIndicator('cook');
+  setIndicator('pobre');
   map.fitBounds(layers.dep.getBounds(),{padding:[10,10]});
 })();
 </script>
