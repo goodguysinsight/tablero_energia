@@ -14,7 +14,7 @@ También puede abrirse descargando `index.html` y abriéndolo en el navegador.
 ## Funcionalidades
 
 - **Selector de indicador:**
-  - **Energía para cocinar: limpia vs. contaminante** — clasifica a los hogares en dos grupos: **energía limpia** (cocinan solo con electricidad, gas natural o GLP) y **energía contaminante** (usan al menos un combustible contaminante: leña, carbón, bosta/estiércol u otro).
+  - **Energía para cocinar: limpia vs. contaminante** — clasifica a los hogares que cocinan en dos grupos excluyentes: **energía limpia** (gas —GLP o natural— o únicamente electricidad) y **energía contaminante** (combustibles contaminantes: leña, carbón, bosta/estiércol u otros). Dato exacto del Censo 2025 vía REDATAM.
   - **Combustible para cocinar** — distribución de hogares por tipo de combustible.
   - **Energía eléctrica** — acceso a alumbrado eléctrico por red pública en la vivienda.
   - **Pobreza energética (Censo)** — indicador de hogares en situación de carencia de acceso a energía.
@@ -55,7 +55,7 @@ Cobertura nacional a los tres niveles territoriales (25 departamentos). Las cifr
 - Los valores son **referenciales** y pueden ajustarse según las publicaciones oficiales definitivas del INEI.
 - Los límites distritales/provinciales son de vigencia 2023 (RENLIM); distritos creados con posterioridad pueden no estar representados.
 - La categoría "No cocinan" agrupa a los hogares que declararon no cocinar en la vivienda.
-- **Energía para cocinar: limpia vs. contaminante** es una **estimación referencial** (no dato oficial). Energía limpia = hogares que cocinan solo con electricidad, gas natural o GLP; energía contaminante = hogares que usan al menos un combustible contaminante (leña, carbón, bosta/estiércol u otro). Como el combustible de cocina es de **respuesta múltiple** (un hogar puede declarar más de uno), el grupo contaminante se estima por **unión bajo supuesto de independencia por unidad**; el remanente hasta 100% corresponde a hogares que declararon no cocinar (excluidos de ambos grupos). El cálculo exacto requiere microdatos. A nivel nacional: **61.0%** energía limpia y **35.5%** energía contaminante.
+- **Energía para cocinar: limpia vs. contaminante** proviene del **cruce a nivel de hogar del Censo 2025 (INEI) procesado en REDATAM** (clasificación excluyente, dato exacto). Energía limpia = hogares que cocinan con gas (GLP o natural) o únicamente con electricidad; energía contaminante = hogares que cocinan con combustibles contaminantes (leña, carbón, bosta/estiércol u otros). **Base: hogares que cocinan** (10,203,831; excluye a quienes declararon no cocinar), por lo que los dos grupos suman 100%. A nivel nacional: **85.6%** energía limpia y **14.4%** energía contaminante (1,464,851 hogares). Esta cifra coincide con la reportada por IPE/SPH (~1.5 millones · 14%).
 
 ## Créditos
 
