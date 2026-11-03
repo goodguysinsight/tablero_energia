@@ -13,11 +13,11 @@ También puede abrirse descargando `index.html` y abriéndolo en el navegador.
 
 ## Funcionalidades
 
-- **Selector de indicador:**
-  - **Energía para cocinar: limpia vs. contaminante** — clasifica a los hogares que cocinan en dos grupos excluyentes: **energía limpia** (gas —GLP o natural— o únicamente electricidad) y **energía contaminante** (combustibles contaminantes: leña, carbón, bosta/estiércol u otros). Dato exacto del Censo 2025 vía REDATAM.
-  - **Combustible para cocinar** — distribución de hogares por tipo de combustible.
-  - **Energía eléctrica** — acceso a alumbrado eléctrico por red pública en la vivienda.
+- **Selector de indicador** (en este orden):
+  - **Uso Exclusivo** (energía limpia vs. contaminante) — clasifica a los hogares que cocinan en dos grupos excluyentes: **energía limpia** (gas —GLP o natural— o únicamente electricidad) y **energía contaminante** (combustibles contaminantes: leña, carbón, bosta/estiércol u otros). Dato exacto del Censo 2025 vía REDATAM.
+  - **Uso Múltiple** (combustible por tipo) — distribución de hogares por tipo de combustible; de **respuesta múltiple** (un hogar puede declarar más de uno, por lo que los porcentajes no suman 100%).
   - **Pobreza energética (Censo)** — indicador de hogares en situación de carencia de acceso a energía.
+  - **Energía eléctrica** — acceso a alumbrado eléctrico por red pública en la vivienda.
 - **Categorías** (para combustible de cocina): Gas (balón GLP), Gas natural (red de tuberías), Electricidad, Leña, Carbón, Bosta/estiércol, Otro, y hogares que no cocinan.
 - **Tres niveles territoriales:** Departamental, Provincial y Distrital, con **filtros en cascada** (Departamento → Provincia → Distrito).
 - **Medida:** porcentaje de hogares (**% de hogares**) o número absoluto (**N° de hogares**).
@@ -25,6 +25,7 @@ También puede abrirse descargando `index.html` y abriéndolo en el navegador.
 - **Panel de resumen** por zona: total de hogares censados y participación de cada categoría.
 - **Clic en una zona** la fija en el panel; el botón **"Ver todo"** regresa a la vista nacional.
 - Diseño **responsive** para escritorio y celular.
+- **Modo claro / oscuro** con botón de tema (recuerda la preferencia); por defecto sigue el esquema del sistema.
 
 ## Fuente de datos
 
